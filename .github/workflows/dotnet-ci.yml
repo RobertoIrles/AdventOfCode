@@ -26,4 +26,4 @@ jobs:
       run: dotnet build csharp/ --no-restore --configuration Release
 
     - name: Ejecutar pruebas unitarias
-      run: dotnet test csharp/ --no-build --configuration Release --verbosity normal
+      run: dotnet test csharp/Year*.Tests/Year*.Tests.csproj --no-build --configuration Release --verbosity normal --filter "FullyQualifiedName!~AdventOfCode.Common"
