@@ -1,0 +1,59 @@
+# ==========================================
+# Advent of Code - Datos de entrada y secretos
+# ==========================================
+# Inputs reales de AoC
+**/input.txt
+**/inputs/
+*.input
+
+# Variables de entorno y tokens locales
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+
+# ==========================================
+# .NET / C# (Compilación y paquetes)
+# ==========================================
+[Bb]in/
+[Oo]bj/
+*.props
+*.targets
+!Directory.Build.props
+!Directory.Build.targets
+
+# Paquetes NuGet restaurados
+*.nupkg
+*.snupkg
+**/packages/
+project.lock.json
+project.assets.json
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+
+# ==========================================
+# Resultados de pruebas y cobertura
+# ==========================================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+.attach_pid*
+
+# ==========================================
+# Archivos del Sistema Operativo
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
