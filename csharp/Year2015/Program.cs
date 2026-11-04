@@ -1,5 +1,6 @@
 using AdventOfCode.Common;
 using Year2015.Day01;
+using Year2015.Day02;
 
 Console.WriteLine("--- Advent of Code 2015 ---");
 
@@ -59,5 +60,6 @@ Console.WriteLine($"Parte 2: {day.SolvePart2(input)}");
 static IDay? GetDay(short dia) => dia switch
 {
     1 => new Day01(),
+    2 => new Day02(),
     _ => null
 };
