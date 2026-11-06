@@ -1,7 +1,6 @@
-namespace Year2015.Tests.Day02;
-
 using AdventOfCode.Common;
-using Year2015.Day02;
+
+namespace Year2015.Tests;
 
 public class Day02Tests : DayTestBase<Day02>
 {

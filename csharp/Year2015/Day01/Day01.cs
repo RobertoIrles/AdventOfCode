@@ -1,6 +1,6 @@
-namespace Year2015.Day01;
-
 using AdventOfCode.Common;
+
+namespace Year2015;
 
 public class Day01 : IDay
 {

@@ -1,8 +1,6 @@
-namespace Year2015.Tests.Day01;
-
 using AdventOfCode.Common;
-using Year2015.Day01;
-using Xunit;
+
+namespace Year2015.Tests;
 
 public class Day01Tests : DayTestBase<Day01>
 {
