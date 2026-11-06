@@ -8,7 +8,7 @@ Colección de soluciones para los retos anuales de [Advent of Code](https://adve
 
 | Año | Lenguaje | Días Completados | Estrellas |
 | :---: | :---: | :---: | :---: |
-| 2015 | C# (.NET 9) | 04/25 | 08/50 |
+| 2015 | C# (.NET 9) | 05/25 | 10/50 |
 
 ---
 
